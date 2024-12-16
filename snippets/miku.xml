@@ -56,7 +56,7 @@
 
   <!-- External -->
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="ea353ab8f68b23b5b5df9048beec26e3e3660680" />
-  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="miku" revision="Udon" />
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="miku" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="miku" />
   <project path="external/mksh" name="platform_external_mksh" remote="miku" revision="Udon" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="miku" revision="Udon" />
