@@ -122,7 +122,7 @@
   <project path="hardware/miku/compat" name="platform_hardware_miku_compat" remote="miku" revision="Vampire" />
 
   <!-- KernelSU -->
-  <project path="kernel/KernelSU" name="platform_kernel_KernelSU" remote="miku" revision="Vampire" />
+  <project path="kernel/KernelSU" name="platform_kernel_KernelSU" remote="miku" />
 
   <!-- Kernel -->
   <project path="kernel/configs" name="platform_kernel_configs" remote="miku" />
