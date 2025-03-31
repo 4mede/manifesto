@@ -2,17 +2,17 @@
 <manifest>
 
     <remote name="diva"
-        revision="Vampire_v2"
+        revision="Vampire_v3"
         fetch="https://github.com/Diva-Room"
         review="https://android-review.googlesource.com/" />
 
     <remote name="diva-ssh"
-        revision="Vampire_v2"
+        revision="Vampire_v3"
         fetch="ssh://git@github.com/Diva-Room"
         review="https://android-review.googlesource.com/" />
 
     <remote name="divalab"
-        revision="Vampire_v2"
+        revision="Vampire_v3"
         fetch="https://gitlab.com/Diva-Room"
         review="https://android-review.googlesource.com/" />
 

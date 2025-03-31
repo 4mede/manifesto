@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="miku"
-	   revision="Vampire_v2"
+	   revision="Vampire_v3"
 	   fetch="https://github.com/Miku-UI"
 	   review="https://android-review.googlesource.com/" />
 	
@@ -46,13 +46,13 @@
   <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="miku" revision="Udon" />
 
   <!-- Device -->
-  <project path="device/qcom/perf" name="platform_device_qcom_perf" remote="miku" revision="Udon" />
+  <project path="device/qcom/perf" name="platform_device_qcom_perf" remote="miku" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="miku" revision="Udon" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="miku" revision="Udon" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="miku" revision="Udon" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="miku" revision="Udon" />
   <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="miku" revision="Udon" />
-  <project path="vendor/qcom/perf" name="platform_vendor_qcom_perf" remote="miku" revision="Udon" />
+  <project path="vendor/qcom/perf" name="platform_vendor_qcom_perf" remote="miku" />
 
   <!-- External -->
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="ea353ab8f68b23b5b5df9048beec26e3e3660680" />
@@ -112,14 +112,14 @@
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" revision="Udon" />
   <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,pdk-qcom" remote="miku" revision="Udon" />
   <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom-caf_sm8350_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" revision="Vampire" />
-  <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom-caf_sm8350_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" revision="Vampire" />
+  <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom-caf_sm8350_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" />
   <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom-caf_sm8350_media" groups="qcom,pdk-qcom" remote="miku" revision="Vampire" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="miku" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="miku" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="miku" />
-  <project path="hardware/miku/compat" name="platform_hardware_miku_compat" remote="miku" revision="Vampire" />
+  <project path="hardware/miku/compat" name="platform_hardware_miku_compat" remote="miku" />
 
   <!-- KernelSU -->
   <project path="kernel/KernelSU" name="platform_kernel_KernelSU" remote="miku" />

@@ -1,8 +1,8 @@
-[**中文版**](https://github.com/Miku-UI/manifesto/blob/Vampire_v2/READMECN.md) | [**日本語**](https://github.com/Miku-UI/manifesto/blob/Vampire_v2/READMEJP.md)
+[**中文版**](https://github.com/Miku-UI/manifesto/blob/Vampire_v3/READMECN.md) | [**日本語**](https://github.com/Miku-UI/manifesto/blob/Vampire_v3/READMEJP.md)
 
-# Miku UI Vampire v2
+# Miku UI Vampire v3
 
-![MikuUI](https://github.com/Miku-UI/manifesto/raw/Vampire_v2/img/MikuUI.png)
+![MikuUI](https://github.com/Miku-UI/manifesto/raw/Vampire_v3/img/MikuUI.png)
 
 Miku UI is an AOSP-Based Project focus on Performance and ... 
 
@@ -19,7 +19,7 @@ Sync Sourcecode
 
 
 ```shell
-repo init -u https://github.com/Miku-UI/manifesto -b Vampire_v2
+repo init -u https://github.com/Miku-UI/manifesto -b Vampire_v3
 ```
 
 
