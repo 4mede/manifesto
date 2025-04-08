@@ -51,7 +51,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="miku" revision="Udon" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="miku" revision="Udon" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="miku" />
-  <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="miku" revision="Udon" />
+  <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="miku" />
   <project path="vendor/qcom/perf" name="platform_vendor_qcom_perf" remote="miku" />
 
   <!-- External -->
