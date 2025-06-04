@@ -43,7 +43,6 @@
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="miku" revision="Udon" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="miku" revision="Udon" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="miku" revision="Vampire" />
-  <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="miku" revision="Udon" />
 
   <!-- Device -->
   <project path="device/qcom/perf" name="platform_device_qcom_perf" remote="miku" />
