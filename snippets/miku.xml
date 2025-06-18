@@ -38,27 +38,29 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="miku" revision="Vampire" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um" remote="miku" revision="Vampire" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="miku" revision="Udon" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_display-commonsys" remote="miku" revision="Udon" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="miku" revision="Udon" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_display-commonsys" remote="miku" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="miku" />
+  <project path="vendor/qcom/opensource/display" name="platform_vendor_qcom_opensource_display" remote="miku" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="miku" revision="Udon" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="miku" revision="Udon" />
-  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="miku" revision="Vampire" />
+  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="miku" />
 
   <!-- Device -->
   <project path="device/qcom/perf" name="platform_device_qcom_perf" remote="miku" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="miku" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="miku" revision="Udon" />
-  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="miku" revision="Udon" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="miku" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="platform_device_qcom_sepolicy_vndr_sm8450" remote="miku" />
   <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="miku" />
   <project path="vendor/qcom/perf" name="platform_vendor_qcom_perf" remote="miku" />
 
   <!-- External -->
+  <project path="external/dtc" name="platform_external_dtc" groups="pdk" remote="miku" />
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="ea353ab8f68b23b5b5df9048beec26e3e3660680" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="miku" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="miku" />
   <project path="external/mksh" name="platform_external_mksh" remote="miku" revision="Udon" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="miku" revision="Udon" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="miku" />
   <project path="external/libevdev" name="platform_external_libevdev" remote="miku" revision="snowland" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="miku" revision="snowland" />
 
@@ -89,6 +91,9 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
   </project>
 
   <!-- Gcc -->
@@ -113,6 +118,12 @@
   <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom-caf_sm8350_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" revision="Vampire" />
   <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom-caf_sm8350_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" />
   <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom-caf_sm8350_media" groups="qcom,pdk-qcom" remote="miku" revision="Vampire" />
+  <project path="hardware/qcom-caf/sm8450/audio/agm" name="platform_hardware_qcom-caf_sm8450_audio_agm" groups="qcom,waipio-vendor" remote="miku" />
+  <project path="hardware/qcom-caf/sm8450/audio/graphservices" name="platform_hardware_qcom-caf_sm8450_audio_graphservices" groups="qcom" remote="miku" />
+  <project path="hardware/qcom-caf/sm8450/audio/pal" name="platform_hardware_qcom-caf_sm8450_audio_pal" groups="qcom,waipio-vendor" remote="miku" />
+  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="platform_hardware_qcom-caf_sm8450_audio_primary-hal" groups="qcom,waipio-vendor" remote="miku" />
+  <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="platform_hardware_qcom-caf_sm8450_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="miku" />
+  <project path="hardware/qcom-caf/sm8450/display" name="platform_hardware_qcom-caf_sm8450_display" groups="qcom" remote="miku" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="miku" />
 
   <!-- Hardware -->
