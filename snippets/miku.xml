@@ -6,9 +6,9 @@
 	   fetch="https://github.com/Miku-UI"
 	   review="https://android-review.googlesource.com/" />
 	
-  <remote  name="mikulab"
-	   revision="Vampire"
-	   fetch="https://gitlab.com/Miku-UI" />
+  <remote  name="mind"
+	   revision="vic"
+	   fetch="https://gitlab.com/MindTheGapps" />
 
   <!-- Art -->
   <project path="art" name="platform_art" remote="miku" />
@@ -176,10 +176,6 @@
   <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="miku" revision="TDA" />
 	
   <!-- GAPPS -->
-  <project path="vendor/gms/config" name="android_vendor_gms_config" remote="mikulab" >
-        <linkfile dest="vendor/gms/gms.mk" src="config.mk"/>
-  </project>
-  <project path="vendor/gms/extra" name="proprietary_vendor_gms_extra" remote="mikulab" />
-  <project path="vendor/gms/main" name="proprietary_vendor_gms_main" remote="mikulab" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="mind" >
 
 </manifest>
