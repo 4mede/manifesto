@@ -6,9 +6,6 @@
           revision="refs/tags/LA.UM.10.3.r1-01700-sdm845.0" />
 
   <!-- External -->
-  <project path="external/ant-wireless/ant_client" name="platform/external/ant-wireless/ant_client" remote="caf" />
-  <project path="external/ant-wireless/ant_native" name="platform/external/ant-wireless/ant_native" remote="caf" />
-  <project path="external/ant-wireless/ant_service" name="platform/external/ant-wireless/ant_service" remote="caf" />
   <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="caf" />
 
   <!-- CAF -->
