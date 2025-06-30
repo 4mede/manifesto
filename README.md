@@ -1,8 +1,8 @@
-[**中文版**](https://github.com/Miku-UI/manifesto/blob/Vampire_v3/READMECN.md) | [**日本語**](https://github.com/Miku-UI/manifesto/blob/Vampire_v3/READMEJP.md)
+[**中文版**](https://github.com/Miku-UI/manifesto/blob/Blooming/READMECN.md) | [**日本語**](https://github.com/Miku-UI/manifesto/blob/Blooming/READMEJP.md)
 
-# Miku UI Vampire v3
+# Miku UI Blooming
 
-![MikuUI](https://github.com/Miku-UI/manifesto/raw/Vampire_v3/img/MikuUI.png)
+![MikuUI](https://github.com/Miku-UI/manifesto/raw/Blooming/img/MikuUI.webp)
 
 Miku UI is an AOSP-Based Project focus on Performance and ... 
 
@@ -19,7 +19,7 @@ Sync Sourcecode
 
 
 ```shell
-repo init -u https://github.com/Miku-UI/manifesto -b Vampire_v3
+repo init -u https://github.com/Miku-UI/manifesto -b Blooming --git-lfs
 ```
 
 

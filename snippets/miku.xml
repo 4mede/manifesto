@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="miku"
-	   revision="Vampire_v3"
+	   revision="Blooming"
 	   fetch="https://github.com/Miku-UI"
 	   review="https://android-review.googlesource.com/" />
 	
@@ -59,9 +59,9 @@
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="ea353ab8f68b23b5b5df9048beec26e3e3660680" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="miku" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="miku" />
-  <project path="external/mksh" name="platform_external_mksh" remote="miku" revision="Udon" />
+  <project path="external/mksh" name="platform_external_mksh" remote="miku" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="miku" />
-  <project path="external/libevdev" name="platform_external_libevdev" remote="miku" revision="snowland" />
+  <project path="external/libevdev" name="platform_external_libevdev" remote="miku" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="miku" revision="snowland" />
 
   <!-- Framework -->
@@ -115,9 +115,9 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" revision="Udon" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" revision="Udon" />
   <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,pdk-qcom" remote="miku" revision="Udon" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom-caf_sm8350_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" revision="Vampire" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom-caf_sm8350_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
   <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom-caf_sm8350_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" />
-  <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom-caf_sm8350_media" groups="qcom,pdk-qcom" remote="miku" revision="Vampire" />
+  <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom-caf_sm8350_media" groups="qcom,pdk-qcom" remote="miku" />
   <project path="hardware/qcom-caf/sm8450/audio/agm" name="platform_hardware_qcom-caf_sm8450_audio_agm" groups="qcom,waipio-vendor" remote="miku" />
   <project path="hardware/qcom-caf/sm8450/audio/graphservices" name="platform_hardware_qcom-caf_sm8450_audio_graphservices" groups="qcom" remote="miku" />
   <project path="hardware/qcom-caf/sm8450/audio/pal" name="platform_hardware_qcom-caf_sm8450_audio_pal" groups="qcom,waipio-vendor" remote="miku" />
