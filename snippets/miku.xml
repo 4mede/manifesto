@@ -56,7 +56,6 @@
 
   <!-- External -->
   <project path="external/dtc" name="platform_external_dtc" groups="pdk" remote="miku" />
-  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="ea353ab8f68b23b5b5df9048beec26e3e3660680" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="miku" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="miku" />
   <project path="external/mksh" name="platform_external_mksh" remote="miku" />
