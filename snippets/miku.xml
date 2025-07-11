@@ -50,6 +50,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="miku" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="miku" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="platform_device_qcom_sepolicy_vndr_sm8450" remote="miku" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="platform_device_qcom_sepolicy_vndr_sm8550" remote="miku" />
   <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="miku" />
   <project path="vendor/qcom/perf" name="platform_vendor_qcom_perf" remote="miku" />
 
@@ -92,6 +93,9 @@
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
   </project>
 
   <!-- Gcc -->
@@ -122,6 +126,13 @@
   <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="platform_hardware_qcom-caf_sm8450_audio_primary-hal" groups="qcom,waipio-vendor" remote="miku" />
   <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="platform_hardware_qcom-caf_sm8450_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="miku" />
   <project path="hardware/qcom-caf/sm8450/display" name="platform_hardware_qcom-caf_sm8450_display" groups="qcom" remote="miku" />
+  <project path="hardware/qcom-caf/sm8550/audio/agm" name="platform_hardware_qcom-caf_sm8550_audio_agm" groups="qcom,kailua-audio" remote="miku" />
+  <project path="hardware/qcom-caf/sm8550/audio/graphservices" name="platform_hardware_qcom-caf_sm8550_audio_graphservices" groups="qcom" remote="miku" />
+  <project path="hardware/qcom-caf/sm8550/audio/pal" name="platform_hardware_qcom-caf_sm8550_audio_pal" groups="qcom,kailua-audio" remote="miku" />
+  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="platform_hardware_qcom-caf_sm8550_audio_primary-hal" groups="qcom,kailua-audio" remote="miku" />
+  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="platform_hardware_qcom-caf_sm8550_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" remote="miku" />
+  <project path="hardware/qcom-caf/sm8550/dataipa" name="platform_hardware_qcom-caf_sm8550_dataipa" groups="qcom,kailua-vendor" remote="miku" />
+  <project path="hardware/qcom-caf/sm8550/display" name="platform_hardware_qcom-caf_sm8550_display" groups="qcom" remote="miku" />
   <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,waipio-vendor" remote="miku" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="miku" />
 
