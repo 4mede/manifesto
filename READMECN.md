@@ -100,7 +100,7 @@ repo init -u https://github.com/Miku-UI/manifesto -b Blooming --git-lfs
 开始同步源码：
 
 ```shell
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c --force-sync --no-clone-bundle --no-tags
 ```
 > `-j` 参数为下载线程数，不带该参数默认自动分配线程
 >

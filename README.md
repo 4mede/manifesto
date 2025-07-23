@@ -24,7 +24,7 @@ repo init -u https://github.com/Miku-UI/manifesto -b Blooming --git-lfs
 
 
 ```shell
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c --force-sync --no-clone-bundle --no-tags
 ```
 
 
