@@ -1,8 +1,8 @@
-[**中国語**](https://github.com/Miku-UI/manifesto/blob/Blooming/READMECN.md)
+[**中国語**](https://github.com/Miku-UI/manifesto/blob/Blooming_v2/READMECN.md)
 
-# Miku UI Blooming
+# Miku UI Blooming V2
 
-![MikuUI](https://github.com/Miku-UI/manifesto/raw/Blooming/img/MikuUI.webp)
+![MikuUI](https://github.com/Miku-UI/manifesto/raw/Blooming_v2/img/MikuUI.webp)
 
 Miku UI は AOSP ベースのプロジェクトです。パフォーマンス面にフォーカスしているのが特徴です ... 
 
@@ -19,7 +19,7 @@ Miku UI は AOSP ベースのプロジェクトです。パフォーマンス面
 
 
 ```shell
-repo init -u https://github.com/Miku-UI/manifesto -b Blooming --git-lfs
+repo init -u https://github.com/Miku-UI/manifesto -b Blooming_v2 --git-lfs
 ```
 
 

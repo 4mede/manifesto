@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="miku"
-	   revision="Blooming"
+	   revision="Blooming_v2"
 	   fetch="https://github.com/Miku-UI"
 	   review="https://android-review.googlesource.com/" />
 	
@@ -45,14 +45,14 @@
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="miku" />
 
   <!-- Device -->
-  <project path="device/qcom/perf" name="platform_device_qcom_perf" remote="miku" />
+  <project path="device/qcom/perf" name="platform_device_qcom_perf" remote="miku" revision="Blooming" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="miku" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="miku" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="miku" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="platform_device_qcom_sepolicy_vndr_sm8450" remote="miku" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="platform_device_qcom_sepolicy_vndr_sm8550" remote="miku" />
   <project path="device/miku/sepolicy" name="platform_device_miku_sepolicy" remote="miku" />
-  <project path="vendor/qcom/perf" name="platform_vendor_qcom_perf" remote="miku" />
+  <project path="vendor/qcom/perf" name="platform_vendor_qcom_perf" remote="miku" revision="Blooming" />
 
   <!-- External -->
   <project path="external/dtc" name="platform_external_dtc" groups="pdk" remote="miku" />
@@ -107,32 +107,32 @@
   <project path="vendor/settings" name="platform_vendor_settings" remote="miku" revision="snowland" />
 
   <!-- HALS -->
-  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom-caf_msm8998_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
-  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom-caf_msm8998_display" groups="qcom,qcom_display,pdk-qcom" remote="miku" />
-  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom-caf_msm8998_media" groups="qcom,qcom_media,pdk-qcom" remote="miku" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom-caf_msm8998_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" revision="Blooming" />
+  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom-caf_msm8998_display" groups="qcom,qcom_display,pdk-qcom" remote="miku" revision="Blooming" />
+  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom-caf_msm8998_media" groups="qcom,qcom_media,pdk-qcom" remote="miku" revision="Blooming"  />
   <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" revision="Vampire" />
   <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom-caf_sdm660_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" revision="Udon" />
   <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom-caf_sdm660_media" groups="qcom,pdk-qcom" remote="miku" revision="Udon" />
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" revision="Udon" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" revision="Udon" />
   <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,pdk-qcom" remote="miku" revision="Udon" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom-caf_sm8350_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" />
-  <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom-caf_sm8350_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" />
-  <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom-caf_sm8350_media" groups="qcom,pdk-qcom" remote="miku" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom-caf_sm8350_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku" revision="Blooming" />
+  <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom-caf_sm8350_display" groups="pdk-qcom,qcom,qcom_display" remote="miku" revision="Blooming" />
+  <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom-caf_sm8350_media" groups="qcom,pdk-qcom" remote="miku" revision="Blooming" />
   <project path="hardware/qcom-caf/sm8450/audio/agm" name="platform_hardware_qcom-caf_sm8450_audio_agm" groups="qcom,waipio-vendor" remote="miku" />
   <project path="hardware/qcom-caf/sm8450/audio/graphservices" name="platform_hardware_qcom-caf_sm8450_audio_graphservices" groups="qcom" remote="miku" />
   <project path="hardware/qcom-caf/sm8450/audio/pal" name="platform_hardware_qcom-caf_sm8450_audio_pal" groups="qcom,waipio-vendor" remote="miku" />
   <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="platform_hardware_qcom-caf_sm8450_audio_primary-hal" groups="qcom,waipio-vendor" remote="miku" />
   <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="platform_hardware_qcom-caf_sm8450_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="miku" />
   <project path="hardware/qcom-caf/sm8450/display" name="platform_hardware_qcom-caf_sm8450_display" groups="qcom" remote="miku" />
-  <project path="hardware/qcom-caf/sm8550/audio/agm" name="platform_hardware_qcom-caf_sm8550_audio_agm" groups="qcom,kailua-audio" remote="miku" />
-  <project path="hardware/qcom-caf/sm8550/audio/graphservices" name="platform_hardware_qcom-caf_sm8550_audio_graphservices" groups="qcom" remote="miku" />
+  <project path="hardware/qcom-caf/sm8550/audio/agm" name="platform_hardware_qcom-caf_sm8550_audio_agm" groups="qcom,kailua-audio" remote="miku" revision="Blooming" />
+  <project path="hardware/qcom-caf/sm8550/audio/graphservices" name="platform_hardware_qcom-caf_sm8550_audio_graphservices" groups="qcom" remote="miku" revision="Blooming" />
   <project path="hardware/qcom-caf/sm8550/audio/pal" name="platform_hardware_qcom-caf_sm8550_audio_pal" groups="qcom,kailua-audio" remote="miku" />
-  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="platform_hardware_qcom-caf_sm8550_audio_primary-hal" groups="qcom,kailua-audio" remote="miku" />
-  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="platform_hardware_qcom-caf_sm8550_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" remote="miku" />
-  <project path="hardware/qcom-caf/sm8550/dataipa" name="platform_hardware_qcom-caf_sm8550_dataipa" groups="qcom,kailua-vendor" remote="miku" />
-  <project path="hardware/qcom-caf/sm8550/display" name="platform_hardware_qcom-caf_sm8550_display" groups="qcom" remote="miku" />
-  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,waipio-vendor" remote="miku" />
+  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="platform_hardware_qcom-caf_sm8550_audio_primary-hal" groups="qcom,kailua-audio" remote="miku" revision="Blooming" />
+  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="platform_hardware_qcom-caf_sm8550_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" remote="miku" revision="Blooming" />
+  <project path="hardware/qcom-caf/sm8550/dataipa" name="platform_hardware_qcom-caf_sm8550_dataipa" groups="qcom,kailua-vendor" remote="miku" revision="Blooming" />
+  <project path="hardware/qcom-caf/sm8550/display" name="platform_hardware_qcom-caf_sm8550_display" groups="qcom" remote="miku" revision="Blooming" />
+  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,waipio-vendor" remote="miku" revision="Blooming" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="miku" />
 
   <!-- Hardware -->
@@ -141,13 +141,13 @@
   <project path="hardware/miku/compat" name="platform_hardware_miku_compat" remote="miku" />
 
   <!-- KernelSU -->
-  <project path="kernel/KernelSU" name="platform_kernel_KernelSU" remote="miku" />
+  <project path="kernel/KernelSU" name="platform_kernel_KernelSU" remote="miku" revision="Blooming" />
 
   <!-- Kernel -->
   <project path="kernel/configs" name="platform_kernel_configs" remote="miku" />
 
   <!-- Miku Settings -->
-  <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="miku" />
+  <project path="vendor/MikuSettings" name="platform_vendor_MikuSettings" remote="miku" revision="Blooming" />
 
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="miku" />
@@ -175,7 +175,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="miku" revision="snowland" clone-depth="1" /> 
 
   <!-- Qcom opensource -->
-  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="platform_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" remote="miku" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="platform_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" remote="miku" revision="Blooming" />
 
   <!-- System -->
   <project path="system/bpf" name="platform_system_bpf" remote="miku" />
