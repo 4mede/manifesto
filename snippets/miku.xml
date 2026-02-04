@@ -127,7 +127,7 @@
   <project path="hardware/qcom-caf/sm8450/display" name="platform_hardware_qcom-caf_sm8450_display" groups="qcom" remote="miku" />
   <project path="hardware/qcom-caf/sm8550/audio/agm" name="platform_hardware_qcom-caf_sm8550_audio_agm" groups="qcom,kailua-audio" remote="miku" revision="Blooming" />
   <project path="hardware/qcom-caf/sm8550/audio/graphservices" name="platform_hardware_qcom-caf_sm8550_audio_graphservices" groups="qcom" remote="miku" revision="Blooming" />
-  <project path="hardware/qcom-caf/sm8550/audio/pal" name="platform_hardware_qcom-caf_sm8550_audio_pal" groups="qcom,kailua-audio" remote="miku" />
+  <project path="hardware/qcom-caf/sm8550/audio/pal" name="platform_hardware_qcom-caf_sm8550_audio_pal" groups="qcom,kailua-audio" remote="miku" revision="Blooming" />
   <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="platform_hardware_qcom-caf_sm8550_audio_primary-hal" groups="qcom,kailua-audio" remote="miku" revision="Blooming" />
   <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="platform_hardware_qcom-caf_sm8550_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" remote="miku" revision="Blooming" />
   <project path="hardware/qcom-caf/sm8550/dataipa" name="platform_hardware_qcom-caf_sm8550_dataipa" groups="qcom,kailua-vendor" remote="miku" revision="Blooming" />
