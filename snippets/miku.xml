@@ -56,6 +56,7 @@
   <project path="vendor/qcom/perf" name="platform_vendor_qcom_perf" remote="miku" revision="Blooming" />
 
   <!-- External -->
+  <project path="external/dng_sdk" name="platform_external_dng_sdk" remote="miku" />
   <project path="external/dtc" name="platform_external_dtc" groups="pdk" remote="miku" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="miku" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="miku" />

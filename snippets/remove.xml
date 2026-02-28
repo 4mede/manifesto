@@ -28,6 +28,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
 
   <!-- External -->
+  <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/chromium-webview" />
