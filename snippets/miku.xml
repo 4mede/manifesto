@@ -60,6 +60,7 @@
   <project path="external/dtc" name="platform_external_dtc" groups="pdk" remote="miku" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="miku" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="miku" />
+  <project path="external/libjxl" name="platform_external_libjxl" remote="miku" />
   <project path="external/mksh" name="platform_external_mksh" remote="miku" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="miku" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="miku" revision="snowland" />
