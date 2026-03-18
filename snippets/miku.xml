@@ -175,9 +175,6 @@
   <!-- Providers -->
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="miku" /> 
 
-  <!-- Proton -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="miku" revision="snowland" clone-depth="1" /> 
-
   <!-- Qcom opensource -->
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="platform_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" remote="miku" revision="Blooming" />
 
