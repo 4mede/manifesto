@@ -168,15 +168,12 @@
   <project path="packages/inputmethods/Gboard" name="platform_packages_inputmethods_Gboard" remote="miku" revision="Vampire" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="main-kernel-build-2024" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="main-kernel-2025" />
   <project path="prebuilts/tools-miku" name="platform_prebuilts_tools-miku" remote="miku" revision="snowland" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" remote="miku" revision="snowland" clone-depth="1" />
 
   <!-- Providers -->
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="miku" /> 
-
-  <!-- Proton -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="miku" revision="snowland" clone-depth="1" /> 
 
   <!-- Qcom opensource -->
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="platform_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" remote="miku" revision="Blooming" />
