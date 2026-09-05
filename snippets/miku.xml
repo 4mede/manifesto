@@ -136,7 +136,8 @@
   <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="platform_hardware_qcom-caf_sm8550_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" remote="miku" revision="Blooming" />
   <project path="hardware/qcom-caf/sm8550/dataipa" name="platform_hardware_qcom-caf_sm8550_dataipa" groups="qcom,kailua-vendor" remote="miku" revision="Blooming" />
   <project path="hardware/qcom-caf/sm8550/display" name="platform_hardware_qcom-caf_sm8550_display" groups="qcom" remote="miku" />
-  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,waipio-vendor" remote="miku" revision="Blooming" />
+  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,waipio-vendor" remote="miku" />
+  <project path="hardware/qcom-caf/thermal-legacy-um" name="platform_hardware_qcom-caf_thermal-legacy-um" groups="qcom,waipio-vendor" remote="miku" revision="Blooming" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="miku" />
 
   <!-- Hardware -->
@@ -177,7 +178,8 @@
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="miku" /> 
 
   <!-- Qcom opensource -->
-  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="platform_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" remote="miku" revision="Blooming" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="platform_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" remote="miku" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" name="platform_vendor_qcom_opensource_audio-hal_st-hal-ar-legacy" groups="qcom,lanai-audio" remote="miku" revision="Blooming" />
 
   <!-- System -->
   <project path="system/bpf" name="platform_system_bpf" remote="miku" />
